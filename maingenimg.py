@@ -7,7 +7,7 @@ import requests, io
 from image_widgets import *
 
 def generate():
-    openai.api_key = "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"
+    openai.api_key = "your key"
     user_prompt = prompt_entry.get("0.0", tkinter.END)
     user_prompt += "in style: " + style_dropdown.get()
 
